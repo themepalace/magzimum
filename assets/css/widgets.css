@@ -1,0 +1,31 @@
+
+/* Adv Widget */
+.ad-preview-wrap{
+  margin-top: 10px;
+}
+
+/* Accordion */
+.accordion-toggle {
+  cursor: pointer;
+  padding: 5px 2px;
+  background-color: #eee;
+  font-size: 1.1em;
+}
+.accordion-toggle:before,
+.accordion-toggle.opened:before  {
+  font-family: "Dashicons";
+  font-size: 18px;
+  vertical-align: middle;
+}
+.accordion-toggle:before {
+  content: "\f139";
+}
+.accordion-toggle.opened:before {
+  content: "\f140";
+}
+.accordion-content {
+  display: none;
+}
+.accordion-content.active {
+  display: block;
+}

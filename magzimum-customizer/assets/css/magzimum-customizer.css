@@ -1,0 +1,34 @@
+/*** Heading STARTS ***/
+.magzimum-customizer-heading{
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 5px;
+}
+/*** Heading ENDS ***/
+/*** Radio Image STARTS ***/
+input.stylish-radio-image {
+    display: none;
+}
+input.stylish-radio-image + span {
+    margin-right: 10px;
+    display: inline-flex;
+    padding: 2px!important;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border: 2px solid #FFFFFF;
+}
+input.stylish-radio-image:checked + span {
+    border: 2px solid #777777;
+}
+/*** Radio Image ENDS ***/
+/*** Numeric Slider STARTS ***/
+.magzimum-customizer-slider-input{
+  max-width: 36px;
+}
+.magzimum-customizer-numeric-slider{
+  width: 190px;
+  float: right;
+  margin-top: 7px;
+}
+/*** Numeric Slider ENDS ***/

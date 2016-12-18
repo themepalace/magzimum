@@ -1,0 +1,338 @@
+/*  Media Queries
+--------------------------- */
+/* Smaller than standard 1170 (devices and browsers) */
+@media only screen and (max-width:1200px){
+  .container{
+    width: 97%;
+  }
+  .sidebar-header-right{
+    width: 75%;
+  }
+  .site-branding {
+    width: 25%;
+  }
+  h1.site-title {
+      margin-bottom: 0;
+      font-size: 25px;
+  }
+  h2.site-description{
+    font-size: 12px;
+  }
+  #featured-content div.owl-carousel .owl-item img {
+      display: block;
+      width: 100px;
+  }
+  .global-layout-three-columns .magzimum_widget_tabbed ul.etabs li.tab:before {
+      display: inline;
+  }
+ .global-layout-three-columns .magzimum_widget_tabbed ul.etabs li.tab {
+      width: 100%;
+      display: block;
+  }
+}
+
+
+/* Smaller than standard 1023 (devices and browsers) */
+@media only screen and (max-width:1023px){
+  .container {
+    width: 100%;
+  }
+  h1.site-title {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .site-branding{
+    margin-top: 0;
+  }
+  .widget ,
+  .widget-area .widget,
+  #main-slider,
+  #breaking-news-wrap, 
+  #featured-content, 
+  #content,
+  #site-navigation{
+    margin: 0 0 20px;
+  }
+  #main-slider .cycle-caption p {
+      font-size: 12px;
+  }
+  #main-slider .cycle-caption h3{
+    font-size: 20px;
+  }
+  #breaking-ticker .list {
+    font-size: 18px;
+    padding: 5px 10px 5px 0;
+  }
+  .breaking-title {
+      font-size: 18px;
+      margin-right: 0;
+      padding: 5px 15px;
+  }
+  #site-navigation ul li a{
+    font-size: 16px;
+  }
+  #site-navigation ul li.menu-item-has-children > a:after, 
+  #site-navigation ul li.page_item_has_children > a:after {
+    font-size: 17px;
+    right: 5px;
+    top: 6px;
+  }
+  #site-navigation ul li.menu-item-has-children > a, 
+  #site-navigation ul li.page_item_has_children > a {
+      padding-right: 20px;
+  }
+  #site-navigation ul li a{
+    font-size: 16px;
+  }
+  #site-navigation ul ul a {
+    padding: 5px 10px 5px 15px;
+    font-size: 14px;
+  }
+  #site-navigation ul ul{
+    top: 33px;
+  }
+  #site-navigation ul li li.menu-item-has-children > a:after, 
+  #site-navigation ul li li.page_item_has_children > a:after {
+    font-size: 17px;
+    right: 10px;
+    top: 2px;
+  }
+
+  h1{
+      font-size:25px;
+  }
+  h2 {
+      font-size: 22px;
+  }
+  h3{
+      font-size:20px;
+  }
+  h4{
+      font-size: 15px;
+  }
+  h5{
+    font-size: 14px;
+  }
+  h6{
+    font-size: 13px;
+  }
+  p , body{
+      font-size: 12px; 
+  }
+  .sidebar ul li{
+    font-size: 12px;
+  }
+  .footer-widget-area ul li a, 
+  .footer-widget-area p, 
+  .footer-widget-area{
+    font-size: 14px;
+    clear: both;
+  }
+  .widget-title{
+    font-size: 20px;
+  }
+  #footer-widgets h3.widget-title{
+    font-size: 20px;
+  }
+  #colophon, #colophon a {
+      font-size: 12px;
+  }
+
+  #commentform .col-sm-4 {
+      margin-bottom: 15px;
+      width: 100%;
+  }
+  #breadcrumb {
+      margin-bottom: 10px;
+      margin-top: -10px;
+  }
+  .comment-list .children{
+    padding-left: 20px;
+  }
+  #featured-content .owl-controls {
+      display: block;
+  }
+  #featured-content .owl-prev, 
+  #featured-content .owl-next{
+    top: 37%;
+  }
+  .breaking-title,
+  #breaking-ticker .list {
+    font-size: 14px;
+  }
+  #site-navigation ul li a {
+      font-size: 18px;
+  }
+
+
+
+  h1.site-title {
+      font-size: 27px;
+      margin-bottom: 0;
+  }
+  .tab-container h3{
+    font-size: 16px;
+  }
+}
+/* Tablet Portrait size to standard 1024 (devices and browsers) */
+@media only screen and (max-width:1023px) and (min-width:769px){
+  .magzimum_widget_tabbed ul.etabs li.tab{
+    width: 33.3%;
+  }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px){
+
+  body{
+    padding-top: 0;
+  }
+ .site-branding {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .sidebar-header-right{
+    width: 100%;
+    text-align: center;
+    float: none;
+    display: inline-block;
+  }
+ 
+
+  /*primary*/
+
+  .global-layout-left-sidebar #primary{
+    float: none;
+    overflow: hidden;
+  }
+  .global-layout-left-sidebar #sidebar-primary, 
+  .global-layout-right-sidebar #sidebar-primary{
+    clear: both;
+  }
+  .global-layout-right-sidebar #primary{
+    overflow: hidden;
+  }
+  .global-layout-three-columns #primary{
+    display: block;
+  }
+
+ 
+  /*mobile-trigger*/
+
+  #mobile-trigger,
+  #mobile-trigger-top{
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  #mobile-trigger .fa.fa-bars,
+  #mobile-trigger-top i{
+    font-size: 30px;
+  }
+  #site-navigation,#top-navigation{
+    display: none;
+  }
+  .breaking-title,
+  #breaking-ticker .list{
+    font-size: 12px;
+  }
+  .latest-works-widget .latest-works-item, 
+  .latest-news-widget .latest-news-item{
+    overflow: hidden;
+  }
+  .special-posts-widget {
+    margin-bottom: 15px;
+    position: relative;
+    max-width: 360px;
+    margin: 0 auto 20px;
+    width: 48%;
+    float: left;
+  }
+  .special-posts-widget:first-child {
+      margin-right: 4%;
+  }
+  .latest-works-widget .latest-works-item, 
+  .latest-news-widget .latest-news-item {
+    margin-bottom: 15px;
+    width: 50%;
+    float: left;
+  }
+  .magzimum_widget_categorized_news .col-sm-6 {
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+  }
+  .magzimum_widget_tabbed ul.etabs li.tab {
+      width: 33.3%;
+      display: block;
+  }
+  .magzimum_widget_tabbed ul.etabs li.tab.tab-comment {
+    width: 33.33%;
+  }
+  .global-layout-three-columns #sidebar-secondary {
+    float: left;
+    width: 50%;
+  }
+  .global-layout-three-columns #sidebar-primary {
+      float: right;
+      width: 50%;
+  }
+  .global-layout-three-columns .magzimum_widget_tabbed ul.etabs li.tab {
+      width: 100%;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  #main-slider .pager-box{
+    height: 12px;
+    width: 12px;
+  }
+  #breaking-ticker .list{
+    line-height: 1.4;
+  }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px){
+
+
+  .breaking-title, #breaking-ticker .list {
+    font-size: 12px;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  #main-slider .cycle-caption{
+    bottom:30px;
+    width: 70%;
+    left: 15%;
+    padding: 5px;
+  }
+  #main-slider .cycle-caption p{
+    display: none;
+  }
+  #main-featured-content .owl-item img {
+      width: 100px;
+  }
+  .global-layout-three-columns #sidebar-secondary {
+    width: 100%;
+  }
+  .global-layout-three-columns #sidebar-primary {
+      width:100%;
+  }
+.special-posts-widget{
+  width: 100%;
+}
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width:767px) and (min-width:481px){
+
+}
+/* Small Andriod Mobile Portrait Size ( 240 devices and browsers) */
+@media only screen and (max-width:319px){
+
+}
+
+
+
+
